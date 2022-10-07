@@ -4,8 +4,8 @@ let profissao = "Técnico em Telecomunicações"
 let idade = 55
 let pais = "India"
 
-console.log (nome == "mauro Carlos")
-console.log (email == "mauro_carlos14@hotmail.com")
-console.log (profissao == "Técnico em Telecomunicações")
-console.log (idade == 55)
-console.log (pais == "India")
+console.log (typeof (nome) === "string")
+console.log (typeof (email) ==="string")
+console.log (typeof (profissao) === "string")
+console.log (typeof (idade) === "string")
+console.log (typeof (pais) === "string")
