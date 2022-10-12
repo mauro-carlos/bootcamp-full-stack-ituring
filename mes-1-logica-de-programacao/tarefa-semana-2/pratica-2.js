@@ -14,12 +14,17 @@ console.log (mensagem);
 }
 
 function email (enderecoEmail) {
-    console.log (`atenciosamente 
+    console.log (
+        `atenciosamente` + `
+
             ${enderecoEmail}`)
 }
 
 nomeComprador("Mauro Carlos")
 entregaProduto ("tenis", "ana carolina", "avenida mario palma")
+
+
+
 
 
 email ("mauro_carlos14@hotmail.com")
