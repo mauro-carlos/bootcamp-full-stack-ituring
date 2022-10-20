@@ -1,28 +1,17 @@
-let listadeFilmes = function (filme) {
-    return  `${filme}`
-    
-    }
-
-function pesquisarFilmes (buscar) {
-
-    let filme = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];      
-    let i = 0; 
-    let diferente = "underfined"   
-    
-    while (i < filme.length) {       
-        if (filme[i] == buscar) {
+function pesquisarFilmes (listaDeFilmes, buscar) {
+    let i = 0;
+    let diferente = "underfined"
+    while (i < listaDeFilmes.length) {
+        if (listaDeFilmes[i] == buscar) {
             diferente = "vazio"
-            console.log (i);            
-    }     
-              
-    
+            return i;
+        }
         i++;
-        
-}
-    
-      if (diferente == "underfined") {
-         console.log ("underfined")
     }
-
+        if (diferente == "underfined")
+            return "underfined"
 }
- pesquisarFilmes("loucos");
+
+const lista = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];
+const termoDeBusca = "friend";
+console.log (pesquisarFilmes(lista, termoDeBusca));
