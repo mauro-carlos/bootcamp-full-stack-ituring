@@ -16,8 +16,8 @@ function grupoDePessoas (listaDePessoas) {
   }
   
 console.log(grupo1.toString());
-console.log(grupo2.toString());
-console.log(grupo3.toString());
+console.log(grupo2.toString().replace(",,",""));
+console.log(grupo3.toString().replace(",,,,",""));
 
 }
 const pessoas = ["Anderson Luz", "Fabio Vechia", "Claudia Lopes", "Rafael Alves", "Maria Mansano", "Jairo Ferreira", "Vitor Ribeiro"]
