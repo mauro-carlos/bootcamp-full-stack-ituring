@@ -19,21 +19,9 @@ let pesquisarFilmes = (serie, buscar) => {
         }
     });
     return result 
-    }
+    } 
 
- 
 
-/*
-while (i < listaDeFilmes.length) {
-    if (listaDeFilmes[i].includes(buscar)) {
-        j[i] = listaDeFilmes[i]
-        //console.log(j[i-1])                     
-        
-    }
-    i++;        
-}
- return j
-*/
 const lista = ["Breaking Bad", "Game of Thrones", "Stranger Things", "Chernobyl", "Dexter", "The Last Dance", "This is Us"];
 const termoDeBusca = "Th";
 console.table(pesquisarFilmes(lista, termoDeBusca));
