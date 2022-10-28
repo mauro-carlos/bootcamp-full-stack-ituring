@@ -8,12 +8,11 @@ Agora, altere o código da solução e utilize o método .forEach.
 
 let listadeFilmes = function (filme) {
     filme.forEach (function(item, indice) {
-    console.log (`[${indice}]: ${item}`)
+    console.table (`[${indice}]: ${item}`)
     })
 }
 
-    
-         
+        
     
     
     
