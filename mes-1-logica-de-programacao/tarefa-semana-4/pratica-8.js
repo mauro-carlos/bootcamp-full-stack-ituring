@@ -66,8 +66,8 @@ let listaDeFilmes = [{
 
 function PercorrerObjetos (listaDeFilmes) {
   listaDeFilmes.forEach(function (item){
-  console.log(`${item.titulo}  (Nota: ${item.notaAvaliacao}) `)
-  console.log(`• Duração: ${item.duracao} minutos`)
+console.log(`${item.titulo}  (Nota: ${item.notaAvaliacao}) `)
+console.log(`• Duração: ${item.duracao} minutos`)
 console.log(`• Ano de publicação: ${item.anoPublicacao}`)
 console.log(`• Gênero: ${item.genero}`)
 console.log("")
